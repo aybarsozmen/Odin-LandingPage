@@ -40,5 +40,49 @@ navbar .container .nav {
 }
 /* end of navbar */
 
+.section1 .container{
+    height: 600px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1 .container .topimg {
+    width: 460px;
+    height: 460px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom:10px;
+}
+
+.paragraph {
+    width: 460px;
+    height: 460px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    margin-top: 15px;
+    border-radius: 12px;
+    background-color: #3882f6 ;
+    height: 25px;
+    width: 65px; 
+    
+}
+
+.button1 a{
+    text-decoration: none;
+    color: #f9faf8;
+    
+}
+/* end of Section1 */
 
 
