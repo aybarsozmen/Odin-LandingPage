@@ -41,7 +41,6 @@ navbar .container .nav {
 /* end of navbar */
 
 .section1 .container{
-    height: 600px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-evenly;
@@ -86,8 +85,8 @@ h1 {
 /* end of Section1 */
 
 .section2 .container{
-   height: 600px; 
    align-items: center;
+   margin-top: 40px;
 }
 
 .boxes {
@@ -108,4 +107,67 @@ h2 {
     margin: auto;
     color: #1f2937;
     font-size: 36px; 
+}
+
+p{
+    display:flex;
+    flex:1 ;
+    justify-content: center;
+}
+
+/* end of Section2 */
+
+.section3 {
+    background-color: #e5e7eb;  
+    height:300px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h4{
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* end of Section3 */
+
+footer {
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20%;   
+    margin-right: 20%;   
+    margin-top: 50px;
+    margin-bottom: 20%;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.button2 {
+    border-radius: 12px;
+    background-color: #3882f6 ;
+    height: 25px;
+    width: 65px;    
+}
+
+.button2 a{
+    text-decoration: none;
+    color: #f9faf8;
 }
