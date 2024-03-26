@@ -85,4 +85,27 @@ h1 {
 }
 /* end of Section1 */
 
+.section2 .container{
+   height: 600px; 
+   align-items: center;
+}
 
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    border: 20px #3882f6;
+    width: 250px;
+    height: 250px;   
+}
+
+h2 {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    color: #1f2937;
+    font-size: 36px; 
+}
